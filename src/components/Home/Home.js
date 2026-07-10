@@ -6,7 +6,6 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -65,16 +64,6 @@ function Home() {
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
                 </a>
               </li>
               <li className="social-icons">
