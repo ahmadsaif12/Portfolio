@@ -15,6 +15,16 @@ function Home() {
     <section>
       <Container fluid className="home-section" id="home">
         <Particle />
+        <div className="rain-container">
+          {Array.from({ length: 80 }, (_, i) => (
+            <div key={i} className="raindrop" style={{
+              left: `${Math.random() * 100}%`,
+              animationDelay: `${Math.random() * 2}s`,
+              animationDuration: `${0.5 + Math.random() * 0.8}s`,
+              opacity: 0.2 + Math.random() * 0.4,
+            }} />
+          ))}
+        </div>
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
