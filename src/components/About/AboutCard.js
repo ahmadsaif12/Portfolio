@@ -8,27 +8,30 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I'm <span className="purple">Saif Ahmad</span> from{" "}
-            <span className="purple">Nepal</span> — a{" "}
-            <span className="purple">Backend Developer</span> who loves building
-            scalable REST APIs and robust systems.
+            Hey, I'm <span className="purple">Saif Ahmad</span> — a{" "}
+            <span className="purple">Backend Developer</span> from{" "}
+            <span className="purple">Nepal</span> who enjoys turning complex
+            problems into clean, scalable solutions.
             <br />
             <br />
-            I work with <span className="purple">Python</span>,{" "}
-            <span className="purple">Django</span>,{" "}
-            <span className="purple">Node.js</span>, and{" "}
-            <span className="purple">DevOps</span> tools like Docker,
-            Kubernetes, and AWS.
+            I primarily work with{" "}
+            <span className="purple">Python</span>,{" "}
+            <span className="purple">Django</span>, and{" "}
+            <span className="purple">Node.js</span>, building REST APIs and
+            services that are built to last. I also have hands-on experience
+            with <span className="purple">Docker</span>,{" "}
+            <span className="purple">Kubernetes</span>,{" "}
+            <span className="purple">AWS</span>, and CI/CD pipelines.
             <br />
             <br />
-            Currently at{" "}
-            <span className="purple">Arcodify Agency</span> — building backend
-            systems and exploring{" "}
-            <span className="purple">Redis caching</span> &amp;{" "}
-            <span className="purple">cloud deployment</span>.
+            Currently working at{" "}
+            <span className="purple">Arcodify Agency</span>, where I focus on
+            backend architecture, <span className="purple">Redis caching</span>,
+            and <span className="purple">cloud deployment</span> — always
+            looking for ways to make systems faster and more reliable.
           </p>
 
-          <ul>
+          <ul style={{ marginTop: "15px" }}>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
@@ -37,7 +40,13 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)", marginTop: "10px" }}>
+          <p
+            style={{
+              color: "rgb(155, 126, 172)",
+              marginTop: "15px",
+              fontStyle: "italic",
+            }}
+          >
             "Strive to build things that make a difference!"
           </p>
           <footer className="blockquote-footer">Saif</footer>
