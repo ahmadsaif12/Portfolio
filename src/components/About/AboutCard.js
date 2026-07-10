@@ -8,16 +8,6 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            <span
-              style={{
-                display: "block",
-                fontSize: "1.1em",
-                fontWeight: 600,
-                marginBottom: "12px",
-              }}
-            >
-              Let Me Introduce Myself
-            </span>
             I'm a <span className="purple">Backend Developer</span> with a
             passion for building scalable REST APIs and robust systems. I enjoy
             solving complex problems and turning ideas into reliable software
