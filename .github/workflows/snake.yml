@@ -31,7 +31,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout --orphan output
           git rm -rf .
-          mv dist/* . 2>/dev/null || true
+          cp dist/github-contribution-grid-snake.svg .
+          cp dist/github-contribution-grid-snake-dark.svg .
+          cp dist/github-contribution-grid-snake-white.svg .
           git add .
-          git commit -m "Update contribution snake" --allow-empty
+          git commit -m "Update contribution snake"
           git push origin output --force
