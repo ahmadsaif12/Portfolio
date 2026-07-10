@@ -8,28 +8,30 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "left", lineHeight: "1.7" }}>
-            I'm a <span className="purple">Backend Developer</span> from{" "}
-            <span className="purple">Nepal</span> who enjoys building scalable
-            REST APIs and robust systems.
+            <span className="purple">Backend Developer</span> based in{" "}
+            <span className="purple">Nepal</span>, specializing in designing and
+            developing high-performance REST APIs and distributed systems.
             <br />
-            I work with <span className="purple">Python</span>,{" "}
-            <span className="purple">Django</span>,{" "}
-            <span className="purple">Node.js</span>, and{" "}
-            <span className="purple">DevOps</span> tools like Docker,
-            Kubernetes &amp; AWS.
+            Proficient in <span className="purple">Python</span>,{" "}
+            <span className="purple">Django</span>, and{" "}
+            <span className="purple">Node.js</span>, with hands-on experience in{" "}
+            <span className="purple">Docker</span>,{" "}
+            <span className="purple">Kubernetes</span>,{" "}
+            <span className="purple">AWS</span>, and CI/CD workflows.
             <br />
-            Currently at{" "}
-            <span className="purple">Arcodify Agency</span> — focused on{" "}
-            <span className="purple">Redis caching</span> &amp;{" "}
-            <span className="purple">cloud deployment</span>.
+            Currently contributing at{" "}
+            <span className="purple">Arcodify Agency</span> — driving
+            improvements in{" "}
+            <span className="purple">Redis caching strategies</span> and{" "}
+            <span className="purple">cloud-native deployments</span>.
           </p>
 
           <ul style={{ marginTop: "10px", marginBottom: "10px" }}>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Gaming
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling &amp; Exploring
+              <ImPointRight /> Traveling
             </li>
           </ul>
 
