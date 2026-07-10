@@ -26,14 +26,24 @@ function AboutCard() {
             code is just as important as writing it.
             <br />
             <br />
+            I enjoy building backend systems with Node.js and modern frameworks
+            like <span className="purple">Express</span> and{" "}
+            <span className="purple">Django REST Framework</span>. From
+            designing clean API architectures to optimizing database queries and
+            implementing caching strategies — I enjoy every part of the backend
+            development lifecycle.
+            <br />
+            <br />
             Currently working at{" "}
             <span className="purple">Arcodify Agency</span> — deepening my
-            skills in Redis caching, cloud deployment, and building backend
-            systems with modern frameworks like Express and Django REST Framework.
+            skills in <span className="purple">Redis caching</span> and{" "}
+            <span className="purple">cloud deployment</span>. I'm constantly
+            exploring new tools and techniques to improve performance,
+            reliability, and developer experience across the stack.
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            When I'm not coding, you'll find me exploring new places, playing
+            games, or diving into something new that sparks my curiosity:
           </p>
 
           <ul>
@@ -42,6 +52,9 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <ImPointRight /> Traveling and Exploring New Places
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Learning New Technologies
             </li>
           </ul>
 
