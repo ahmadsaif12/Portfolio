@@ -20,9 +20,9 @@ function AboutCard() {
             <span className="purple">AWS</span>, and CI/CD workflows.
             <br />
             Currently contributing at{" "}
-            <span className="purple">Arcodify Agency</span> — driving
-            improvements in{" "}
-            <span className="purple">Redis caching strategies</span> and{" "}
+            <span className="purple">Arcodify Agency</span> — building and
+            delivering multiple backend projects using{" "}
+            <span className="purple">Redis caching</span> and{" "}
             <span className="purple">cloud-native deployments</span>.
           </p>
 
