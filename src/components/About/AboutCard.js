@@ -29,6 +29,10 @@ function AboutCard() {
             backend architecture, <span className="purple">Redis caching</span>,
             and <span className="purple">cloud deployment</span> — always
             looking for ways to make systems faster and more reliable.
+            <br />
+            <br />
+            I believe the best backend systems are the ones you never notice —
+            they just work.
           </p>
 
           <ul style={{ marginTop: "15px" }}>
