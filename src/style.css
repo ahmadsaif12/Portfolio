@@ -687,7 +687,7 @@ button:focus {
   -webkit-backdrop-filter: blur(20px) !important;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
   border-radius: 16px !important;
-  padding: 15px 20px !important;
+  padding: 20px 25px !important;
   transition: all 0.4s ease !important;
   line-height: 1.6 !important;
   font-size: 0.9em !important;

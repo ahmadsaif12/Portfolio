@@ -7,26 +7,26 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "left", lineHeight: "1.7" }}>
+          <p style={{ textAlign: "left", lineHeight: "1.8" }}>
             <span className="purple">Backend Developer</span> based in{" "}
-            <span className="purple">Nepal</span>, specializing in designing and
-            developing high-performance REST APIs and distributed systems.
+            <span className="purple">Nepal</span>, specializing in designing
+            and developing high-performance REST APIs and distributed systems.
+            <br />
             <br />
             Proficient in <span className="purple">Python</span>,{" "}
             <span className="purple">Django</span>, and{" "}
-            <span className="purple">Node.js</span>, with hands-on experience in{" "}
-            <span className="purple">Docker</span>,{" "}
+            <span className="purple">Node.js</span>, with hands-on experience
+            in <span className="purple">Docker</span>,{" "}
             <span className="purple">Kubernetes</span>,{" "}
             <span className="purple">AWS</span>, and CI/CD workflows.
             <br />
+            <br />
             Currently contributing at{" "}
             <span className="purple">Arcodify Agency</span> — building and
-            delivering multiple backend projects using{" "}
-            <span className="purple">Redis caching</span> and{" "}
-            <span className="purple">cloud-native deployments</span>.
+            delivering multiple backend projects in production.
           </p>
 
-          <ul style={{ marginTop: "10px", marginBottom: "10px" }}>
+          <ul style={{ marginTop: "12px", marginBottom: "12px" }}>
             <li className="about-activity">
               <ImPointRight /> Gaming
             </li>
