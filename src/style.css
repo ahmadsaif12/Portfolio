@@ -296,8 +296,24 @@ button:focus {
   pointer-events: none;
 }
 
+@keyframes riseIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .home-header {
   padding-top: 80px !important;
+  animation: riseIn 0.8s ease-out both;
+}
+
+.home-section .img-fluid {
+  animation: riseIn 1s ease-out 0.3s both;
 }
 
 .home-section {
@@ -396,6 +412,7 @@ button:focus {
   text-align: center !important;
   padding-top: 25px;
   color: #e4e0ed !important;
+  animation: riseIn 0.8s ease-out 0.5s both;
 }
 
 .home-about-social-links {
