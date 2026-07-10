@@ -433,7 +433,7 @@ button:focus {
 .home-about-body {
   padding-top: 50px;
   font-size: 1.15em !important;
-  text-align: left;
+  text-align: justify;
   line-height: 1.7 !important;
   color: #c8c2d6 !important;
 }

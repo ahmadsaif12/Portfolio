@@ -18,29 +18,24 @@ function Home2() {
               <br />
               <br />
               I specialize in{" "}
-              <i>
-                <b className="purple">Python, Django, and Node.js</b>
-              </i>
-              , and I also work with{" "}
-              <b className="purple">DevOps</b> tools like{" "}
-              <i>
-                <b className="purple">
-                  Docker, Kubernetes, AWS, and CI/CD pipelines
-                </b>
-              </i>.
+              <b className="purple">Python, Django, and Node.js</b>, and I also
+              work with <b className="purple">DevOps</b> tools like{" "}
+              <b className="purple">
+                Docker, Kubernetes, AWS, and CI/CD pipelines
+              </b>
+              .
               <br />
               <br />
               Currently working at{" "}
               <b className="purple">Arcodify Agency</b> — deepening my skills
-              in Redis caching and cloud deployment.
+              in <b className="purple">Redis caching</b> and{" "}
+              <b className="purple">cloud deployment</b>.
               <br />
               <br />
               I enjoy building backend systems with{" "}
               <b className="purple">Node.js</b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">Express</b> and{" "}
-                <b className="purple">Django REST Framework</b>.
-              </i>
+              <b className="purple">Express</b> and{" "}
+              <b className="purple">Django REST Framework</b>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
