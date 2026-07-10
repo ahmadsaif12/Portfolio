@@ -7,35 +7,24 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            I'm a <span className="purple">Backend Developer</span> with a
-            passion for building scalable REST APIs and robust systems. I enjoy
-            solving complex problems and turning ideas into reliable software
-            that scales.
+          <p style={{ textAlign: "left", lineHeight: "1.7" }}>
+            I'm a <span className="purple">Backend Developer</span> from{" "}
+            <span className="purple">Nepal</span> who enjoys building scalable
+            REST APIs and robust systems.
             <br />
-            <br />
-            I specialize in <span className="purple">Python</span>,{" "}
-            <span className="purple">Django</span>, and{" "}
-            <span className="purple">Node.js</span>. I also work with{" "}
+            I work with <span className="purple">Python</span>,{" "}
+            <span className="purple">Django</span>,{" "}
+            <span className="purple">Node.js</span>, and{" "}
             <span className="purple">DevOps</span> tools like Docker,
-            Kubernetes, AWS, and CI/CD pipelines — because great code deserves
-            great infrastructure.
+            Kubernetes &amp; AWS.
             <br />
-            <br />
-            I enjoy building backend systems with modern frameworks like{" "}
-            <span className="purple">Express</span> and{" "}
-            <span className="purple">Django REST Framework</span>. From API
-            design to database optimization — I care about every layer.
-            <br />
-            <br />
-            Currently working at{" "}
-            <span className="purple">Arcodify Agency</span> — deepening my
-            skills in <span className="purple">Redis caching</span> and{" "}
-            <span className="purple">cloud deployment</span>, always pushing
-            for faster and more reliable systems.
+            Currently at{" "}
+            <span className="purple">Arcodify Agency</span> — focused on{" "}
+            <span className="purple">Redis caching</span> &amp;{" "}
+            <span className="purple">cloud deployment</span>.
           </p>
 
-          <ul style={{ marginTop: "15px" }}>
+          <ul style={{ marginTop: "10px", marginBottom: "10px" }}>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
@@ -47,12 +36,11 @@ function AboutCard() {
           <p
             style={{
               color: "rgb(155, 126, 172)",
-              marginTop: "15px",
               fontStyle: "italic",
+              marginBottom: "5px",
             }}
           >
-            "The best backend systems are the ones you never notice — they just
-            work."
+            "The best backend systems are the ones you never notice."
           </p>
           <footer className="blockquote-footer">Saif</footer>
         </blockquote>
