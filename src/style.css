@@ -818,6 +818,21 @@ button:focus {
   .about-section {
     padding-top: 100px !important;
   }
+  .quote-card-view {
+    padding: 15px 18px !important;
+    font-size: 0.85em !important;
+  }
+  .about-activity {
+    font-size: 0.85em !important;
+  }
+  .home-social-icons {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 1.1em !important;
+  }
+  .home-about-social h1 {
+    font-size: 1.6em !important;
+  }
   .resume-section {
     padding-top: 90px !important;
   }
@@ -828,6 +843,9 @@ button:focus {
   .tech-icons {
     margin: 8px !important;
     padding: 8px 14px !important;
+  }
+  .raindrop {
+    height: 12px !important;
   }
 }
 
@@ -858,6 +876,21 @@ button:focus {
   }
   .home-about-social h1 {
     font-size: 1.5em !important;
+  }
+  .quote-card-view {
+    padding: 12px 15px !important;
+    font-size: 0.8em !important;
+  }
+  .about-img {
+    padding-top: 0 !important;
+  }
+  .about-img img {
+    max-height: 200px !important;
+  }
+  .home-social-icons {
+    width: 34px !important;
+    height: 34px !important;
+    font-size: 1em !important;
   }
   .resume-section .btn-primary {
     padding: 8px 18px !important;

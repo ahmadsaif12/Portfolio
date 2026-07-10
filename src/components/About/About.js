@@ -15,7 +15,7 @@ function About() {
         <Container>
           <Row style={{ justifyContent: "center", padding: "10px" }}>
             <Col
-              md={7}
+              md={6}
               style={{
                 justifyContent: "center",
                 paddingTop: "30px",
